@@ -1,0 +1,3 @@
+https://github.com/jdhxyy/tztype-clang.git
+https://github.com/jdhxyy/tzcomponent-clang.git
+https://github.com/jdhxyy/tzmalloc.git
