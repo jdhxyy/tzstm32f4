@@ -86,7 +86,6 @@ bool TZStm32f4Uart1Init(TZStm32f4UartParam param) {
         if (mid == -1) {
             return false;
         }
-        return false;
     }
 
     gParam = param;

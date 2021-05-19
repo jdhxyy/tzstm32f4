@@ -4,7 +4,7 @@
 
 #include "tziwdg.h"
 #include "stm32f4xx.h"
-#include "stm32f10x_iwdg.h"
+#include "stm32f4xx_iwdg.h"
 
 // initRegister 初始化内部看门狗
 // prescaler:分频系数

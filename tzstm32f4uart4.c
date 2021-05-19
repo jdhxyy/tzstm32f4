@@ -36,6 +36,7 @@ struct DmaParam {
     uint32_t flagTCIF;
 };
 
+static int mid = -1;
 static TZStm32f4UartParam gParam;
 static struct DmaParam gTxDmaParam = {0};
 static struct DmaParam gRxDmaParam = {0};
@@ -85,7 +86,6 @@ bool TZStm32f4Uart4Init(TZStm32f4UartParam param) {
         if (mid == -1) {
             return false;
         }
-        return false;
     }
 
     gParam = param;
